@@ -14,4 +14,9 @@ Engine • revision d3ea636dc5
 Tools • Dart 2.14.4
 
 ## Habilidades concebidas
-- 
+- Possibilidades para armazenamento interno com o Flutter;
+- Configuração do Sqflite;
+- Implementação dos comportamentos de busca e inserção no banco de dados;
+- Utilização do FutureBuilder para carregar dados de maneira assíncrona;
+- Refatoração do código com async await;
+- Organização do código do banco de dados com o padrão DAO.

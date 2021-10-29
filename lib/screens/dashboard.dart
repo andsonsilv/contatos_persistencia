@@ -9,7 +9,7 @@ class Dashboard extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: Text('Dashboard'),
+        title: const Text('Dashboard'),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -27,11 +27,11 @@ class Dashboard extends StatelessWidget {
                 onTap: () {
                   Navigator.of(context).push(
                     (MaterialPageRoute(
-                      builder: (context) => ListaContatos(),
+                      builder: (context) => ListaContato(),
                     )),
                   );
                 },
-                child: Container(
+                child: SizedBox(
                   height: 100,
                   width: 150,
                   child: Padding(

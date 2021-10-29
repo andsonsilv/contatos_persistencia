@@ -1,16 +1,22 @@
 # contatos_persistencia
-
 Trabalhando com persistência de dados utilizando Sqflite.
 
-## Getting Started
+## Build configs:
 
-This project is a starting point for a Flutter application.
+### Dart | Flutter
 
-A few resources to get you started if this is your first Flutter project:
+Flutter 2.5.3 • channel stable • https://github.com/flutter/flutter.git
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Framework • revision 18116933e7 • 2021-10-15 10:46:35 -0700
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Engine • revision d3ea636dc5
+
+Tools • Dart 2.14.4
+
+## Habilidades concebidas
+- Possibilidades para armazenamento interno com o Flutter;
+- Configuração do Sqflite;
+- Implementação dos comportamentos de busca e inserção no banco de dados;
+- Utilização do FutureBuilder para carregar dados de maneira assíncrona;
+- Refatoração do código com async await;
+- Organização do código do banco de dados com o padrão DAO.
